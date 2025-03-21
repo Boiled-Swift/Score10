@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 10 Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+   
+</head>
+
+    <h2>ENTER GAME CODE:</h2>
+    <input type="number" id="gameCode" maxlength="6" oninput="LimitInput(this)" placeholder="Enter 6-digit code">
+    
+    <script>
+        function goBack() {
+            window.history.back(); 
+        }
+ 
+    </script>
+</body>
+<div class="button-container">
+    <a href="Code-enter.html">
+    <button class="Enter-button">Enter</button> </a>
+    <button class="back-button" onclick="goBack()">
+        <img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="Back" class="back-icon">
+    </button>
+    <a href="settings.html">
+        
+    </a>    <button class="settings" onclick="opensettings()">
+        <img src="https://cdn-icons-png.flaticon.com/512/126/126472.png" alt="Settings" class="settings-icon">
+    </button>
+</div>
+</html>
